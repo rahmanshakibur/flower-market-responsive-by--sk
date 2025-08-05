@@ -1,24 +1,35 @@
+
 @media screen and (max-width: 768px) {
-  /* header Section */
-  .nav-section {
-    justify-content: space-between;
-    margin: 28px 16px;
-  }
+
+
+  /*========== header Section ===========*/
+
+
+  
   .banner-section {
     flex-direction: column-reverse;
-
-    div {
-      margin: 0 20px;
-      margin-top: 35px;
-      h1 {
-        font-size: 2rem;
-      }
-      p {
-        margin-top: 30px;
-      }
-    }
   }
-  /* Plants Section */
+
+  .banner-section div {
+    margin: 0 20px;
+    margin-top: 35px;
+  }
+
+  .banner-section div h1 {
+    font-size: 2rem;
+  }
+
+  .banner-section div p {
+    margin-top: 30px;
+  }
+
+
+
+
+
+  /*============= Plants Section ==============*/
+
+
   .p-sec-titile {
     font-size: 1.5rem;
   }
@@ -30,8 +41,14 @@
     .card {
       max-width: 271px;
     }
-  }
-  /* Plants Lover Section */
+    
+    }
+  
+
+
+  /*=========== Plants Lover Section =============*/
+
+
   .love-section {
     flex-direction: column;
     margin: 45px 20px 140px;
@@ -44,7 +61,11 @@
       padding-left: 20px;
     }
   }
-  /* Latest  Deals */
+
+
+  /*=============== Latest  Deals ===============*/
+
+
   .deals {
     display: flex;
     flex-direction: column;
@@ -67,7 +88,11 @@
     height: 100%;
     padding: 60px;
   }
-  /* Join Section */
+
+
+  /*============= Join Section ============*/
+
+
   .join-h2 {
     padding-top: 50%;
     font-size: 1.5rem;
@@ -80,9 +105,15 @@
       padding: 0 12px;
     }
   }
-  /* Footer Section */
+
+
+  /*=============== Footer Section =============*/
+
+
   .footer-section {
     display: grid;
-    padding-left: 30px;
+    
+     flex-direction: column;
+  gap: 30px;
   }
 }
